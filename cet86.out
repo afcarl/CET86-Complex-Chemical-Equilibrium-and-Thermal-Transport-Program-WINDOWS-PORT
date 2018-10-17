@@ -1,0 +1,950 @@
+1     
+                                                                            
+ THERMO                                                                     
+ TRANSPORT PR   RTY COEFFICIENTS                                            
+ REACTANTS                                                                  
+ C   1.0000  H   3.0000  N   1.0000  O   2.0000  00  0.0000  100.000000          0.00  G    298.150     F
+ N   2.0000  O   1.0000      0.0000      0.0000  00  0.0000  100.000000          0.00  G    298.150     O
+     
+    
+ NAMELISTS                                                                  
+ &INPT2
+ KASE    =         123,
+ T       = 26*0.0000000E+00  ,
+ P       =   100.0000    ,   10.00000    ,   1.000000    , 23*0.0000000E+00  ,
+ PSIA    = F,
+ MMHG    = F,
+ NSQM    = F,
+ V       = 26*0.0000000E+00  ,
+ RHO     =   100.0000    ,   10.00000    ,   1.000000    , 23*0.0000000E+00  ,
+ ERATIO  = F,
+ OF      = T,
+ FPCT    = F,
+ FA      = F,
+ MIX     =   2.500000    ,   2.000000    ,   1.500000    ,   1.000000    ,  0.9000000    ,  0.8000000    ,  0.7000000    ,
+   0.6000000    ,  0.5000000    , 17*-1.000000      ,
+ TP      = F,
+ HP      = T,
+ SP      = F,
+ TV      = F,
+ UV      = F,
+ SV      = F,
+ RKT     = F,
+ SHOCK   = F,
+ DETN    = F,
+ TRACE   =  0.000000000000000E+000,
+ S0      =  0.000000000000000E+000,
+ SO      =  0.0000000E+00,
+ IONS    = F,
+ IDEBUG  =           0,
+ PHI     = F,
+ SIUNIT  = F,
+ INHG    = F,
+ TRNSPT  = T,
+ TRPACC  =  0.999990000000000     ,
+ DIF     = F,
+ NODATA  = F,
+ U       =  1.000000000000000E+030,
+ H       =  1.000000000000000E+030
+ /
+0SPECIES BEING CONSIDERED IN THIS SYSTEM  
+  J10/82  CH3NO             J10/82  CH3ONO            J10/82  HCO2              J10/82  CH2NO2            J10/82  CH3NO2          
+  J 3/78  C                 J12/67  CH                J12/72  CH2               J 3/61  FORMALDEHYDE      L 4/85  FORMIC ACID     
+  J 6/69  CH3               L 9/85  HYDROXYMETHYLENE  L 9/85  METHYLOXIDE       L 5/84  CH4               L 9/85  METHANOL        
+  J 6/69  CN                J12/70  NCN RAD           J 6/66  CNN RAD           J 9/65  CO                J 9/65  CO2             
+  J12/69  C2                J 3/67  C2H RAD           J 3/61  ACETYLENE         BUR 84  KETENE            BUR 84  C2H3 RAD        
+  BUR 84  METHYL CYANIDE    BUR 84  CH3CO RAD         BUR 84  CH2CHO RAD        L 4/85  ETHYLENE          BUR 84  ACETALDEHYDE    
+  L 4/85  ACETIC ACID       L 4/85  (FORMIC ACID)2    P10/83  ETHYL RAD         BUR 84  ETHYL OXIDE RAD   L 5/84  ETHANE          
+  BUR 84  AZOMETHANE        BUR 84  DIMETHYL ETHER    BUR 84  ETHANOL           J 3/67  CNC RAD           J 3/61  CYANOGEN        
+  J 9/66  CCO RAD           J12/69  C3                DB6/61  C3H3 RAD          BUR 84  CYCLOPROPENE      BUR 84  PROPYNE         
+  BUR 84  ALLENE            BUR 84  C3H5 RAD          BUR 84  CYCLOPROPANE      L 4/85  PROPYLENE         L 9/85  PROPYLENE OXIDE 
+  L 9/85  I-PROPYL RAD      L 9/85  N-PROPYL RAD      L 4/85  PROPANE           L 1/84  1-PROPANOL        J 6/68  CARBON SUBOXIDE 
+  J12/69  C4                BUR 84  BUTADIYNE         P10/85  CYCLOBUTADIENE    BUR 84  BUTAN-1EN-3YN     P 4/84  1,3-BUTADIENE   
+  BUR 84  2-BUTYNE          BUR 84  2-BUTENE TRANS    BUR 84  2-BUTENE CIS      BUR 84  ISOBUTENE         BUR 84  1-BUTENE        
+  L 4/85  (ACETIC ACID)2    L 9/85  T-BUTYL RAD       L 9/85  S-BUTYL RAD       P10/83  N-BUTYL RAD       L 4/85  N-BUTANE        
+  L 4/85  ISOBUTANE         J 3/61  CARBON SUBNITRID  J12/69  C5                P10/85  CYCLOPENTADIENE   P12/52  CYCLOPENTANE    
+  P12/52  1-PENTENE         L 5/87  T-PENTYL RAD      P10/83  N-PENTYL RAD      P10/85  PENTANE           P10/85  ISOPENTANE      
+  P10/85  CH3C(CH3)2CH3     BUR 84  HEXATRIYNE        L12/84  PHENYL RAD        L12/84  PHENOXY RAD       L12/84  BENZENE         
+  L12/84  PHENOL            BUR 84  CYCLOHEXENE       P10/83  N-HEXYL RAD       P10/84  TOLUENE           L 6/87  CRESOL          
+  P12/52  1-HEPTENE         P10/83  N-HEPTYL RAD      P 4/81  N-HEPTANE         P12/52  1-OCTENE          P10/83  N-OCTYL RAD     
+  P 4/85  OCTANE            P 4/85  ISO-OCTANE        P10/83  N-NONYL RAD       BUR 84  NAPTHLENE         BUR 84  AZULENE         
+  P10/83  N-DECYL RAD       L12/84  O-BIPHENYL RAD    L12/84  BIPHENYL          L 8/86  JET-A(G)          J 3/77  H               
+  L12/69  HCN               J12/70  HCO RAD           J12/70  HNCO              RUS 78  HNO               RUS 78  HNO2            
+  RUS 78  HNO3              J 9/78  HO2               J 3/77  H2                J12/65  H2N2              J 3/79  H2O             
+  L 3/85  H2O2              J 3/77  N                 J12/70  NCO               RUS 78  NH                RUS 78  NH2             
+  J 6/77  NH3               RUS 78  NH2OH             RUS 78  NO                RUS 78  NO2               J12/64  NO3             
+  J 3/77  N2                RUS 78  N2H2              RUS 78  NH2NO2            RUS 78  N2H4              RUS 78  N2O             
+  RUS 78  N2O3              RUS 78  N2O4              RUS 78  N2O5              RUS 78  N3                RUS 78  N3H             
+  J 3/77  O                 J 6/77  OH                J 3/77  O2                J 6/61  O3                J 3/78  C(GR)           
+          METHANOL(L)       P10/80  BENZENE(L)        P10/80  TOLUENE(L)        P10/80  OCTANE(L)         L 8/86  JET-A(L)        
+  L 3/81  H2O(S)            J 3/79  H2O(L)          
+0SPECIES WITH TRANSPORT PROPERTIES
+      PURE SPECIES
+
+ C                   CH                  METHANOL            CH4                 CN                  CO              
+ CO2                 C2                  ACETYLENE           ETHYLENE            ETHANE              ETHANOL         
+ CYANOGEN            CYCLOPROPANE        PROPANE             1-PROPANOL          ISOBUTANE           N-BUTANE        
+ BENZENE             H                   HCN                 H2                  H2O                 H2O2            
+ N                   NH                  NH3                 NO                  NO2                 N2              
+ N2O                 N2O4                O                   OH                  O2              
+0    
+0OF =   2.500000
+                            EFFECTIVE FUEL          EFFECTIVE OXIDANT            MIXTURE
+ ENTHALPY                       HPP(2)                   HPP(1)                   HSUB0
+ (KG-MOL)(DEG K)/KG        -0.12884392E+03           0.22298778E+03           0.12246444E+03
+0KG-FORM.WT./KG               B0P(I,2)                 B0P(I,1)                  B0(I)
+ C                          0.16382646E-01           0.00000000E+00           0.46807561E-02
+ H                          0.49147939E-01           0.00000000E+00           0.14042268E-01
+ N                          0.16382646E-01           0.45441327E-01           0.37138847E-01
+ O                          0.32765293E-01           0.22720663E-01           0.25590558E-01
+0POINT ITN   T      CO2             H2O             N2              O2              
+   1   24 3147.95  -46.956         -35.974         -24.629         -28.028
+   2    4 2989.43  -49.856         -38.560         -26.747         -30.091
+   3    4 2807.08  -52.931         -41.246         -28.828         -32.117
+1                                    THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+0                                                               PRESSURES
+
+ CASE NO.     123
+                                                                             WT FRACTION    ENERGY   STATE   TEMP
+          CHEMICAL FORMULA                                                   (SEE NOTE)     CAL/MOL          DEG K
+ FUEL    C  1.00000   H  3.00000   N  1.00000   O  2.00000                     1.000000   -15628.584   G    298.15
+ OXIDANT N  2.00000   O  1.00000                                               1.000000    19502.928   G    298.15
+0               O/F=  2.5000    PERCENT FUEL=  28.5714    EQUIVALENCE RATIO= 0.6402    PHI= 0.4326
+0THERMODYNAMIC PROPERTIES
+
+ P, ATM            100.00   10.000   1.0000
+ T, DEG K          3148.0   2989.4   2807.1
+ RHO, G/CC       1.0859-2 1.1279-3 1.1825-4
+ H, CAL/G          243.36   243.36   243.36
+ U, CAL/G          20.338   28.650   38.567
+ G, CAL/G        -6623.07 -6768.19 -6808.34
+ S, CAL/(G)(K)     2.1812   2.3455   2.5121
+     
+ M, MOL WT         28.049   27.668   27.238
+ (DLV/DLP)T      -1.00888 -1.01430 -1.02065
+ (DLV/DLT)P        1.1846   1.3098   1.4688
+ CP, CAL/(G)(K)    0.6755   0.8824   1.1744
+ GAMMA (S)         1.1605   1.1433   1.1279
+ SON VEL,M/SEC     1040.6   1013.5    983.1
+     
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE  0.92082  0.89057  0.85495
+0  WITH EQUILIBRIUM REACTIONS
+
+ CP, CAL/(G)(K)    0.6754   0.8824   1.1743
+ CONDUCITVITY      1.0788   1.5186   2.1710
+ PRANDTL NUMBER    0.5765   0.5175   0.4625
+0  WITH FROZEN REACTIONS
+
+ CP, CAL/(G)(K)    0.3717   0.3697   0.3674
+ CONDUCITVITY      0.5009   0.4812   0.4595
+ PRANDTL NUMBER    0.6833   0.6841   0.6835
+     
+0MOLE FRACTIONS
+
+ CO               0.01832  0.02913  0.03909
+ CO2              0.11297  0.10038  0.08840
+ H                0.00150  0.00395  0.00840
+ HNO              0.00001  0.00000  0.00000
+ HNO2             0.00001  0.00000  0.00000
+ HO2              0.00022  0.00010  0.00004
+ H2               0.00385  0.00676  0.01016
+ H2O              0.17894  0.16881  0.15794
+ H2O2             0.00001  0.00000  0.00000
+ NO               0.03341  0.02815  0.02244
+ NO2              0.00013  0.00004  0.00001
+ N2               0.50406  0.49967  0.49457
+ N2O              0.00002  0.00000  0.00000
+ O                0.00616  0.01179  0.01937
+ OH               0.02653  0.03332  0.03785
+ O2               0.11386  0.11789  0.12173
+0ADDITIONAL PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS WERE LESS THAN  0.50000E-05 FOR ALL ASSIGNED CONDITIONS
+
+  CH3NO             CH3ONO            HCO2              CH2NO2            CH3NO2            C                 CH              
+  CH2               FORMALDEHYDE      FORMIC ACID       CH3               HYDROXYMETHYLENE  METHYLOXIDE       CH4             
+  METHANOL          CN                NCN RAD           CNN RAD           C2                C2H RAD           ACETYLENE       
+  KETENE            C2H3 RAD          METHYL CYANIDE    CH3CO RAD         CH2CHO RAD        ETHYLENE          ACETALDEHYDE    
+  ACETIC ACID       (FORMIC ACID)2    ETHYL RAD         ETHYL OXIDE RAD   ETHANE            AZOMETHANE        DIMETHYL ETHER  
+  ETHANOL           CNC RAD           CYANOGEN          CCO RAD           C3                C3H3 RAD          CYCLOPROPENE    
+  PROPYNE           ALLENE            C3H5 RAD          CYCLOPROPANE      PROPYLENE         PROPYLENE OXIDE   I-PROPYL RAD    
+  N-PROPYL RAD      PROPANE           1-PROPANOL        CARBON SUBOXIDE   C4                BUTADIYNE         CYCLOBUTADIENE  
+  BUTAN-1EN-3YN     1,3-BUTADIENE     2-BUTYNE          2-BUTENE TRANS    2-BUTENE CIS      ISOBUTENE         1-BUTENE        
+  (ACETIC ACID)2    T-BUTYL RAD       S-BUTYL RAD       N-BUTYL RAD       N-BUTANE          ISOBUTANE         CARBON SUBNITRID
+  C5                CYCLOPENTADIENE   CYCLOPENTANE      1-PENTENE         T-PENTYL RAD      N-PENTYL RAD      PENTANE         
+  ISOPENTANE        CH3C(CH3)2CH3     HEXATRIYNE        PHENYL RAD        PHENOXY RAD       BENZENE           PHENOL          
+  CYCLOHEXENE       N-HEXYL RAD       TOLUENE           CRESOL            1-HEPTENE         N-HEPTYL RAD      N-HEPTANE       
+  1-OCTENE          N-OCTYL RAD       OCTANE            ISO-OCTANE        N-NONYL RAD       NAPTHLENE         AZULENE         
+  N-DECYL RAD       O-BIPHENYL RAD    BIPHENYL          JET-A(G)          HCN               HCO RAD           HNCO            
+  HNO3              H2N2              N                 NCO               NH                NH2               NH3             
+  NH2OH             NO3               N2H2              NH2NO2            N2H4              N2O3              N2O4            
+  N2O5              N3                N3H               O3                C(GR)             METHANOL(L)       BENZENE(L)      
+  TOLUENE(L)        OCTANE(L)         JET-A(L)          H2O(S)            H2O(L)          
+0NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+1     
+0OF =   2.000000
+                            EFFECTIVE FUEL          EFFECTIVE OXIDANT            MIXTURE
+ ENTHALPY                       HPP(2)                   HPP(1)                   HSUB0
+ (KG-MOL)(DEG K)/KG        -0.12884392E+03           0.22298778E+03           0.10571055E+03
+0KG-FORM.WT./KG               B0P(I,2)                 B0P(I,1)                  B0(I)
+ CO2                        0.16382646E-01           0.00000000E+00           0.54608821E-02
+ H2O                        0.24573969E-01           0.00000000E+00           0.81913232E-02
+ N2                         0.81913232E-02           0.22720663E-01           0.17877550E-01
+ O2                        -0.12286985E-01           0.11360332E-01           0.34778929E-02
+   1    4 3243.51  -46.632         -35.732         -24.793         -28.409
+   2    4 3054.54  -49.603         -38.344         -26.882         -30.406
+   3    4 2850.68  -52.727         -41.050         -28.941         -32.383
+1                                    THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+0                                                               PRESSURES
+
+ CASE NO.     123
+                                                                             WT FRACTION    ENERGY   STATE   TEMP
+          CHEMICAL FORMULA                                                   (SEE NOTE)     CAL/MOL          DEG K
+ FUEL    C  1.00000   H  3.00000   N  1.00000   O  2.00000                     1.000000   -15628.584   G    298.15
+ OXIDANT N  2.00000   O  1.00000                                               1.000000    19502.928   G    298.15
+0               O/F=  2.0000    PERCENT FUEL=  33.3333    EQUIVALENCE RATIO= 0.7332    PHI= 0.5408
+0THERMODYNAMIC PROPERTIES
+
+ P, ATM            100.00   10.000   1.0000
+ T, DEG K          3243.5   3054.5   2850.7
+ RHO, G/CC       1.0392-2 1.0855-3 1.1428-4
+ H, CAL/G          210.07   210.07   210.07
+ U, CAL/G         -22.979  -13.039  -1.8515
+ G, CAL/G        -7021.62 -7109.74 -7104.87
+ S, CAL/(G)(K)     2.2296   2.3964   2.5660
+     
+ M, MOL WT         27.658   27.207   26.731
+ (DLV/DLP)T      -1.01264 -1.01874 -1.02558
+ (DLV/DLT)P        1.2552   1.3963   1.5698
+ CP, CAL/(G)(K)    0.7816   1.0210   1.3510
+ GAMMA (S)         1.1523   1.1373   1.1236
+ SON VEL,M/SEC     1060.0   1030.4    998.1
+     
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE  0.93832  0.90252  0.86283
+0  WITH EQUILIBRIUM REACTIONS
+
+ CP, CAL/(G)(K)    0.7814   1.0210   1.3509
+ CONDUCITVITY      1.3252   1.8501   2.5983
+ PRANDTL NUMBER    0.5533   0.4981   0.4486
+0  WITH FROZEN REACTIONS
+
+ CP, CAL/(G)(K)    0.3826   0.3802   0.3776
+ CONDUCITVITY      0.5321   0.5080   0.4830
+ PRANDTL NUMBER    0.6746   0.6754   0.6745
+     
+0MOLE FRACTIONS
+
+ CO               0.03029  0.04330  0.05398
+ CO2              0.12074  0.10527  0.09200
+ H                0.00255  0.00602  0.01183
+ HNO              0.00001  0.00000  0.00000
+ HNO2             0.00001  0.00000  0.00000
+ HO2              0.00022  0.00010  0.00004
+ H2               0.00661  0.01060  0.01490
+ H2O              0.20267  0.19002  0.17698
+ H2O2             0.00001  0.00000  0.00000
+ NO               0.03163  0.02640  0.02088
+ NO2              0.00010  0.00003  0.00001
+ N2               0.47855  0.47316  0.46744
+ N2O              0.00001  0.00000  0.00000
+ O                0.00722  0.01309  0.02066
+ OH               0.03172  0.03834  0.04231
+ O2               0.08763  0.09364  0.09898
+0ADDITIONAL PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS WERE LESS THAN  0.50000E-05 FOR ALL ASSIGNED CONDITIONS
+
+  CH3NO             CH3ONO            HCO2              CH2NO2            CH3NO2            C                 CH              
+  CH2               FORMALDEHYDE      FORMIC ACID       CH3               HYDROXYMETHYLENE  METHYLOXIDE       CH4             
+  METHANOL          CN                NCN RAD           CNN RAD           C2                C2H RAD           ACETYLENE       
+  KETENE            C2H3 RAD          METHYL CYANIDE    CH3CO RAD         CH2CHO RAD        ETHYLENE          ACETALDEHYDE    
+  ACETIC ACID       (FORMIC ACID)2    ETHYL RAD         ETHYL OXIDE RAD   ETHANE            AZOMETHANE        DIMETHYL ETHER  
+  ETHANOL           CNC RAD           CYANOGEN          CCO RAD           C3                C3H3 RAD          CYCLOPROPENE    
+  PROPYNE           ALLENE            C3H5 RAD          CYCLOPROPANE      PROPYLENE         PROPYLENE OXIDE   I-PROPYL RAD    
+  N-PROPYL RAD      PROPANE           1-PROPANOL        CARBON SUBOXIDE   C4                BUTADIYNE         CYCLOBUTADIENE  
+  BUTAN-1EN-3YN     1,3-BUTADIENE     2-BUTYNE          2-BUTENE TRANS    2-BUTENE CIS      ISOBUTENE         1-BUTENE        
+  (ACETIC ACID)2    T-BUTYL RAD       S-BUTYL RAD       N-BUTYL RAD       N-BUTANE          ISOBUTANE         CARBON SUBNITRID
+  C5                CYCLOPENTADIENE   CYCLOPENTANE      1-PENTENE         T-PENTYL RAD      N-PENTYL RAD      PENTANE         
+  ISOPENTANE        CH3C(CH3)2CH3     HEXATRIYNE        PHENYL RAD        PHENOXY RAD       BENZENE           PHENOL          
+  CYCLOHEXENE       N-HEXYL RAD       TOLUENE           CRESOL            1-HEPTENE         N-HEPTYL RAD      N-HEPTANE       
+  1-OCTENE          N-OCTYL RAD       OCTANE            ISO-OCTANE        N-NONYL RAD       NAPTHLENE         AZULENE         
+  N-DECYL RAD       O-BIPHENYL RAD    BIPHENYL          JET-A(G)          HCN               HCO RAD           HNCO            
+  HNO3              H2N2              N                 NCO               NH                NH2               NH3             
+  NH2OH             NO3               N2H2              NH2NO2            N2H4              N2O3              N2O4            
+  N2O5              N3                N3H               O3                C(GR)             METHANOL(L)       BENZENE(L)      
+  TOLUENE(L)        OCTANE(L)         JET-A(L)          H2O(S)            H2O(L)          
+0NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+1     
+0OF =   1.500000
+                            EFFECTIVE FUEL          EFFECTIVE OXIDANT            MIXTURE
+ ENTHALPY                       HPP(2)                   HPP(1)                   HSUB0
+ (KG-MOL)(DEG K)/KG        -0.12884392E+03           0.22298778E+03           0.82255102E+02
+0KG-FORM.WT./KG               B0P(I,2)                 B0P(I,1)                  B0(I)
+ CO2                        0.16382646E-01           0.00000000E+00           0.65530585E-02
+ H2O                        0.24573969E-01           0.00000000E+00           0.98295878E-02
+ N2                         0.81913232E-02           0.22720663E-01           0.16908927E-01
+ O2                        -0.12286985E-01           0.11360332E-01           0.19014051E-02
+   1    5 3339.14  -46.357         -35.487         -24.979         -28.942
+   2    4 3118.68  -49.388         -38.122         -27.039         -30.843
+   3    4 2893.40  -52.550         -40.847         -29.077         -32.752
+1                                    THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+0                                                               PRESSURES
+
+ CASE NO.     123
+                                                                             WT FRACTION    ENERGY   STATE   TEMP
+          CHEMICAL FORMULA                                                   (SEE NOTE)     CAL/MOL          DEG K
+ FUEL    C  1.00000   H  3.00000   N  1.00000   O  2.00000                     1.000000   -15628.584   G    298.15
+ OXIDANT N  2.00000   O  1.00000                                               1.000000    19502.928   G    298.15
+0               O/F=  1.5000    PERCENT FUEL=  40.0000    EQUIVALENCE RATIO= 0.8578    PHI= 0.7210
+0THERMODYNAMIC PROPERTIES
+
+ P, ATM            100.00   10.000   1.0000
+ T, DEG K          3339.1   3118.7   2893.4
+ RHO, G/CC       9.8709-3 1.0367-3 1.0957-4
+ H, CAL/G          163.46   163.46   163.46
+ U, CAL/G         -81.883  -70.140  -57.557
+ G, CAL/G        -7498.13 -7524.97 -7473.56
+ S, CAL/(G)(K)     2.2945   2.4653   2.6395
+     
+ M, MOL WT         27.046   26.530   26.015
+ (DLV/DLP)T      -1.01771 -1.02422 -1.03147
+ (DLV/DLT)P        1.3475   1.5002   1.6880
+ CP, CAL/(G)(K)    0.9225   1.1941   1.5686
+ GAMMA (S)         1.1453   1.1324   1.1202
+ SON VEL,M/SEC     1084.3   1052.1   1017.8
+     
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE  0.95541  0.91385  0.87009
+0  WITH EQUILIBRIUM REACTIONS
+
+ CP, CAL/(G)(K)    0.9225   1.1941   1.5686
+ CONDUCITVITY      1.6542   2.2639   3.1163
+ PRANDTL NUMBER    0.5328   0.4820   0.4380
+0  WITH FROZEN REACTIONS
+
+ CP, CAL/(G)(K)    0.3973   0.3945   0.3916
+ CONDUCITVITY      0.5726   0.5433   0.5146
+ PRANDTL NUMBER    0.6629   0.6636   0.6622
+     
+0MOLE FRACTIONS
+
+ CO               0.05174  0.06602  0.07644
+ CO2              0.12549  0.10784  0.09404
+ H                0.00443  0.00939  0.01701
+ HNO              0.00002  0.00000  0.00000
+ HNO2             0.00001  0.00000  0.00000
+ HO2              0.00020  0.00009  0.00003
+ H2               0.01225  0.01774  0.02314
+ H2O              0.23307  0.21693  0.20099
+ H2O2             0.00001  0.00000  0.00000
+ N                0.00001  0.00001  0.00000
+ NO               0.02722  0.02288  0.01815
+ NO2              0.00007  0.00002  0.00001
+ N2               0.44365  0.43714  0.43081
+ N2O              0.00001  0.00000  0.00000
+ O                0.00770  0.01350  0.02075
+ OH               0.03638  0.04273  0.04613
+ O2               0.05774  0.06571  0.07249
+0ADDITIONAL PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS WERE LESS THAN  0.50000E-05 FOR ALL ASSIGNED CONDITIONS
+
+  CH3NO             CH3ONO            HCO2              CH2NO2            CH3NO2            C                 CH              
+  CH2               FORMALDEHYDE      FORMIC ACID       CH3               HYDROXYMETHYLENE  METHYLOXIDE       CH4             
+  METHANOL          CN                NCN RAD           CNN RAD           C2                C2H RAD           ACETYLENE       
+  KETENE            C2H3 RAD          METHYL CYANIDE    CH3CO RAD         CH2CHO RAD        ETHYLENE          ACETALDEHYDE    
+  ACETIC ACID       (FORMIC ACID)2    ETHYL RAD         ETHYL OXIDE RAD   ETHANE            AZOMETHANE        DIMETHYL ETHER  
+  ETHANOL           CNC RAD           CYANOGEN          CCO RAD           C3                C3H3 RAD          CYCLOPROPENE    
+  PROPYNE           ALLENE            C3H5 RAD          CYCLOPROPANE      PROPYLENE         PROPYLENE OXIDE   I-PROPYL RAD    
+  N-PROPYL RAD      PROPANE           1-PROPANOL        CARBON SUBOXIDE   C4                BUTADIYNE         CYCLOBUTADIENE  
+  BUTAN-1EN-3YN     1,3-BUTADIENE     2-BUTYNE          2-BUTENE TRANS    2-BUTENE CIS      ISOBUTENE         1-BUTENE        
+  (ACETIC ACID)2    T-BUTYL RAD       S-BUTYL RAD       N-BUTYL RAD       N-BUTANE          ISOBUTANE         CARBON SUBNITRID
+  C5                CYCLOPENTADIENE   CYCLOPENTANE      1-PENTENE         T-PENTYL RAD      N-PENTYL RAD      PENTANE         
+  ISOPENTANE        CH3C(CH3)2CH3     HEXATRIYNE        PHENYL RAD        PHENOXY RAD       BENZENE           PHENOL          
+  CYCLOHEXENE       N-HEXYL RAD       TOLUENE           CRESOL            1-HEPTENE         N-HEPTYL RAD      N-HEPTANE       
+  1-OCTENE          N-OCTYL RAD       OCTANE            ISO-OCTANE        N-NONYL RAD       NAPTHLENE         AZULENE         
+  N-DECYL RAD       O-BIPHENYL RAD    BIPHENYL          JET-A(G)          HCN               HCO RAD           HNCO            
+  HNO3              H2N2              NCO               NH                NH2               NH3               NH2OH           
+  NO3               N2H2              NH2NO2            N2H4              N2O3              N2O4              N2O5            
+  N3                N3H               O3                C(GR)             METHANOL(L)       BENZENE(L)        TOLUENE(L)      
+  OCTANE(L)         JET-A(L)          H2O(S)            H2O(L)          
+0NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+1     
+0OF =   1.000000
+                            EFFECTIVE FUEL          EFFECTIVE OXIDANT            MIXTURE
+ ENTHALPY                       HPP(2)                   HPP(1)                   HSUB0
+ (KG-MOL)(DEG K)/KG        -0.12884392E+03           0.22298778E+03           0.47071932E+02
+0KG-FORM.WT./KG               B0P(I,2)                 B0P(I,1)                  B0(I)
+ CO2                        0.16382646E-01           0.00000000E+00           0.81913232E-02
+ H2O                        0.24573969E-01           0.00000000E+00           0.12286985E-01
+ N2                         0.81913232E-02           0.22720663E-01           0.15455993E-01
+ O2                        -0.12286985E-01           0.11360332E-01          -0.46332650E-03
+0POINT ITN   T      CO2             H2O             N2              OH              
+   1    6 3413.48  -46.217         -35.259         -25.184         -25.081
+   2    4 3169.83  -49.272         -37.909         -27.225         -26.838
+0POINT ITN   T      CO              H2O             N2              OH              
+   3    5 2927.81  -35.782         -40.647         -29.249         -28.656
+1                                    THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+0                                                               PRESSURES
+
+ CASE NO.     123
+                                                                             WT FRACTION    ENERGY   STATE   TEMP
+          CHEMICAL FORMULA                                                   (SEE NOTE)     CAL/MOL          DEG K
+ FUEL    C  1.00000   H  3.00000   N  1.00000   O  2.00000                     1.000000   -15628.584   G    298.15
+ OXIDANT N  2.00000   O  1.00000                                               1.000000    19502.928   G    298.15
+0               O/F=  1.0000    PERCENT FUEL=  50.0000    EQUIVALENCE RATIO= 1.0334    PHI= 1.0816
+0THERMODYNAMIC PROPERTIES
+
+ P, ATM            100.00   10.000   1.0000
+ T, DEG K          3413.5   3169.8   2927.8
+ RHO, G/CC       9.2933-3 9.7974-4 1.0386-4
+ H, CAL/G          93.541   93.541   93.541
+ U, CAL/G         -167.05  -153.64  -139.64
+ G, CAL/G        -8053.35 -8034.97 -7945.66
+ S, CAL/(G)(K)     2.3867   2.5643   2.7458
+     
+ M, MOL WT         26.031   25.484   24.951
+ (DLV/DLP)T      -1.02192 -1.02902 -1.03692
+ (DLV/DLT)P        1.4215   1.5878   1.7939
+ CP, CAL/(G)(K)    1.0552   1.3653   1.7971
+ GAMMA (S)         1.1419   1.1299   1.1182
+ SON VEL,M/SEC     1115.8   1081.0   1044.5
+     
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE  0.96783  0.92190  0.87482
+0  WITH EQUILIBRIUM REACTIONS
+
+ CP, CAL/(G)(K)    1.0552   1.3653   1.7971
+ CONDUCITVITY      1.9467   2.6509   3.6235
+ PRANDTL NUMBER    0.5246   0.4748   0.4339
+0  WITH FROZEN REACTIONS
+
+ CP, CAL/(G)(K)    0.4185   0.4154   0.4123
+ CONDUCITVITY      0.6266   0.5922   0.5593
+ PRANDTL NUMBER    0.6465   0.6467   0.6448
+     
+0MOLE FRACTIONS
+
+ CO               0.09147  0.10389  0.11194
+ CO2              0.12175  0.10486  0.09245
+ H                0.00769  0.01474  0.02480
+ HNO              0.00002  0.00000  0.00000
+ HO2              0.00013  0.00006  0.00003
+ H2               0.02569  0.03284  0.03930
+ H2O              0.27184  0.25112  0.23140
+ H2O2             0.00001  0.00000  0.00000
+ N                0.00001  0.00001  0.00001
+ NH               0.00001  0.00000  0.00000
+ NO               0.01866  0.01664  0.01365
+ NO2              0.00003  0.00001  0.00000
+ N2               0.39295  0.38554  0.37881
+ N2O              0.00001  0.00000  0.00000
+ O                0.00639  0.01159  0.01804
+ OH               0.03673  0.04349  0.04692
+ O2               0.02659  0.03519  0.04266
+0ADDITIONAL PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS WERE LESS THAN  0.50000E-05 FOR ALL ASSIGNED CONDITIONS
+
+  CH3NO             CH3ONO            HCO2              CH2NO2            CH3NO2            C                 CH              
+  CH2               FORMALDEHYDE      FORMIC ACID       CH3               HYDROXYMETHYLENE  METHYLOXIDE       CH4             
+  METHANOL          CN                NCN RAD           CNN RAD           C2                C2H RAD           ACETYLENE       
+  KETENE            C2H3 RAD          METHYL CYANIDE    CH3CO RAD         CH2CHO RAD        ETHYLENE          ACETALDEHYDE    
+  ACETIC ACID       (FORMIC ACID)2    ETHYL RAD         ETHYL OXIDE RAD   ETHANE            AZOMETHANE        DIMETHYL ETHER  
+  ETHANOL           CNC RAD           CYANOGEN          CCO RAD           C3                C3H3 RAD          CYCLOPROPENE    
+  PROPYNE           ALLENE            C3H5 RAD          CYCLOPROPANE      PROPYLENE         PROPYLENE OXIDE   I-PROPYL RAD    
+  N-PROPYL RAD      PROPANE           1-PROPANOL        CARBON SUBOXIDE   C4                BUTADIYNE         CYCLOBUTADIENE  
+  BUTAN-1EN-3YN     1,3-BUTADIENE     2-BUTYNE          2-BUTENE TRANS    2-BUTENE CIS      ISOBUTENE         1-BUTENE        
+  (ACETIC ACID)2    T-BUTYL RAD       S-BUTYL RAD       N-BUTYL RAD       N-BUTANE          ISOBUTANE         CARBON SUBNITRID
+  C5                CYCLOPENTADIENE   CYCLOPENTANE      1-PENTENE         T-PENTYL RAD      N-PENTYL RAD      PENTANE         
+  ISOPENTANE        CH3C(CH3)2CH3     HEXATRIYNE        PHENYL RAD        PHENOXY RAD       BENZENE           PHENOL          
+  CYCLOHEXENE       N-HEXYL RAD       TOLUENE           CRESOL            1-HEPTENE         N-HEPTYL RAD      N-HEPTANE       
+  1-OCTENE          N-OCTYL RAD       OCTANE            ISO-OCTANE        N-NONYL RAD       NAPTHLENE         AZULENE         
+  N-DECYL RAD       O-BIPHENYL RAD    BIPHENYL          JET-A(G)          HCN               HCO RAD           HNCO            
+  HNO2              HNO3              H2N2              NCO               NH2               NH3               NH2OH           
+  NO3               N2H2              NH2NO2            N2H4              N2O3              N2O4              N2O5            
+  N3                N3H               O3                C(GR)             METHANOL(L)       BENZENE(L)        TOLUENE(L)      
+  OCTANE(L)         JET-A(L)          H2O(S)            H2O(L)          
+0NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+1     
+0OF =   0.900000
+                            EFFECTIVE FUEL          EFFECTIVE OXIDANT            MIXTURE
+ ENTHALPY                       HPP(2)                   HPP(1)                   HSUB0
+ (KG-MOL)(DEG K)/KG        -0.12884392E+03           0.22298778E+03           0.37813200E+02
+0KG-FORM.WT./KG               B0P(I,2)                 B0P(I,1)                  B0(I)
+ CO                         0.16382646E-01           0.00000000E+00           0.86224455E-02
+ H2O                        0.32765293E-01          -0.22720663E-01           0.64824717E-02
+ N2                         0.81913232E-02           0.22720663E-01           0.15073642E-01
+ OH                        -0.16382646E-01           0.45441327E-01           0.12902393E-01
+0POINT ITN   T      CO2             H2O             N2              OH              
+   1    5 3420.37  -46.225         -35.221         -25.225         -25.125
+0POINT ITN   T      CO              H2O             N2              OH              
+   2    5 3175.54  -33.410         -37.872         -27.267         -26.868
+0POINT ITN   T      CO              H2O             N2              CO2             
+   3    5 2931.90  -35.700         -40.611         -29.290         -52.445
+1                                    THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+0                                                               PRESSURES
+
+ CASE NO.     123
+                                                                             WT FRACTION    ENERGY   STATE   TEMP
+          CHEMICAL FORMULA                                                   (SEE NOTE)     CAL/MOL          DEG K
+ FUEL    C  1.00000   H  3.00000   N  1.00000   O  2.00000                     1.000000   -15628.584   G    298.15
+ OXIDANT N  2.00000   O  1.00000                                               1.000000    19502.928   G    298.15
+0               O/F=  0.9000    PERCENT FUEL=  52.6316    EQUIVALENCE RATIO= 1.0775    PHI= 1.2017
+0THERMODYNAMIC PROPERTIES
+
+ P, ATM            100.00   10.000   1.0000
+ T, DEG K          3420.4   3175.5   2931.9
+ RHO, G/CC       9.1738-3 9.6729-4 1.0256-4
+ H, CAL/G          75.142   75.142   75.142
+ U, CAL/G         -188.84  -175.22  -160.98
+ G, CAL/G        -8168.01 -8148.30 -8055.36
+ S, CAL/(G)(K)     2.4100   2.5896   2.7731
+     
+ M, MOL WT         25.748   25.205   24.675
+ (DLV/DLP)T      -1.02188 -1.02932 -1.03748
+ (DLV/DLT)P        1.4202   1.5925   1.8040
+ CP, CAL/(G)(K)    1.0630   1.3849   1.8310
+ GAMMA (S)         1.1423   1.1300   1.1181
+ SON VEL,M/SEC     1123.2   1088.0   1051.0
+     
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE  0.96868  0.92248  0.87503
+0  WITH EQUILIBRIUM REACTIONS
+
+ CP, CAL/(G)(K)    1.0630   1.3849   1.8310
+ CONDUCITVITY      1.9604   2.6905   3.6918
+ PRANDTL NUMBER    0.5252   0.4748   0.4340
+0  WITH FROZEN REACTIONS
+
+ CP, CAL/(G)(K)    0.4240   0.4208   0.4176
+ CONDUCITVITY      0.6393   0.6042   0.5706
+ PRANDTL NUMBER    0.6423   0.6424   0.6404
+     
+0MOLE FRACTIONS
+
+ CO               0.10296  0.11427  0.12142
+ CO2              0.11904  0.10305  0.09133
+ H                0.00852  0.01607  0.02670
+ HNO              0.00001  0.00000  0.00000
+ HO2              0.00011  0.00006  0.00002
+ H2               0.03048  0.03784  0.04439
+ H2O              0.28043  0.25879  0.23828
+ H2O2             0.00001  0.00000  0.00000
+ N                0.00001  0.00001  0.00001
+ NH               0.00001  0.00000  0.00000
+ NO               0.01635  0.01498  0.01248
+ NO2              0.00002  0.00001  0.00000
+ N2               0.37990  0.37243  0.36570
+ N2O              0.00001  0.00000  0.00000
+ O                0.00576  0.01074  0.01694
+ OH               0.03551  0.04259  0.04622
+ O2               0.02085  0.02915  0.03651
+0ADDITIONAL PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS WERE LESS THAN  0.50000E-05 FOR ALL ASSIGNED CONDITIONS
+
+  CH3NO             CH3ONO            HCO2              CH2NO2            CH3NO2            C                 CH              
+  CH2               FORMALDEHYDE      FORMIC ACID       CH3               HYDROXYMETHYLENE  METHYLOXIDE       CH4             
+  METHANOL          CN                NCN RAD           CNN RAD           C2                C2H RAD           ACETYLENE       
+  KETENE            C2H3 RAD          METHYL CYANIDE    CH3CO RAD         CH2CHO RAD        ETHYLENE          ACETALDEHYDE    
+  ACETIC ACID       (FORMIC ACID)2    ETHYL RAD         ETHYL OXIDE RAD   ETHANE            AZOMETHANE        DIMETHYL ETHER  
+  ETHANOL           CNC RAD           CYANOGEN          CCO RAD           C3                C3H3 RAD          CYCLOPROPENE    
+  PROPYNE           ALLENE            C3H5 RAD          CYCLOPROPANE      PROPYLENE         PROPYLENE OXIDE   I-PROPYL RAD    
+  N-PROPYL RAD      PROPANE           1-PROPANOL        CARBON SUBOXIDE   C4                BUTADIYNE         CYCLOBUTADIENE  
+  BUTAN-1EN-3YN     1,3-BUTADIENE     2-BUTYNE          2-BUTENE TRANS    2-BUTENE CIS      ISOBUTENE         1-BUTENE        
+  (ACETIC ACID)2    T-BUTYL RAD       S-BUTYL RAD       N-BUTYL RAD       N-BUTANE          ISOBUTANE         CARBON SUBNITRID
+  C5                CYCLOPENTADIENE   CYCLOPENTANE      1-PENTENE         T-PENTYL RAD      N-PENTYL RAD      PENTANE         
+  ISOPENTANE        CH3C(CH3)2CH3     HEXATRIYNE        PHENYL RAD        PHENOXY RAD       BENZENE           PHENOL          
+  CYCLOHEXENE       N-HEXYL RAD       TOLUENE           CRESOL            1-HEPTENE         N-HEPTYL RAD      N-HEPTANE       
+  1-OCTENE          N-OCTYL RAD       OCTANE            ISO-OCTANE        N-NONYL RAD       NAPTHLENE         AZULENE         
+  N-DECYL RAD       O-BIPHENYL RAD    BIPHENYL          JET-A(G)          HCN               HCO RAD           HNCO            
+  HNO2              HNO3              H2N2              NCO               NH2               NH3               NH2OH           
+  NO3               N2H2              NH2NO2            N2H4              N2O3              N2O4              N2O5            
+  N3                N3H               O3                C(GR)             METHANOL(L)       BENZENE(L)        TOLUENE(L)      
+  OCTANE(L)         JET-A(L)          H2O(S)            H2O(L)          
+0NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+1     
+0OF =   0.800000
+                            EFFECTIVE FUEL          EFFECTIVE OXIDANT            MIXTURE
+ ENTHALPY                       HPP(2)                   HPP(1)                   HSUB0
+ (KG-MOL)(DEG K)/KG        -0.12884392E+03           0.22298778E+03           0.27525727E+02
+0KG-FORM.WT./KG               B0P(I,2)                 B0P(I,1)                  B0(I)
+ CO                         0.24573969E-01          -0.22720663E-01           0.35541324E-02
+ H2O                        0.24573969E-01           0.00000000E+00           0.13652205E-01
+ N2                         0.81913232E-02           0.22720663E-01           0.14648808E-01
+ CO2                       -0.81913232E-02           0.22720663E-01           0.55473377E-02
+   1    4 3421.85  -31.076         -35.190         -25.266         -46.253
+   2    4 3178.24  -33.313         -37.839         -27.309         -49.290
+   3    4 2934.19  -35.616         -40.578         -29.333         -52.453
+1                                    THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+0                                                               PRESSURES
+
+ CASE NO.     123
+                                                                             WT FRACTION    ENERGY   STATE   TEMP
+          CHEMICAL FORMULA                                                   (SEE NOTE)     CAL/MOL          DEG K
+ FUEL    C  1.00000   H  3.00000   N  1.00000   O  2.00000                     1.000000   -15628.584   G    298.15
+ OXIDANT N  2.00000   O  1.00000                                               1.000000    19502.928   G    298.15
+0               O/F=  0.8000    PERCENT FUEL=  55.5556    EQUIVALENCE RATIO= 1.1256    PHI= 1.3520
+0THERMODYNAMIC PROPERTIES
+
+ P, ATM            100.00   10.000   1.0000
+ T, DEG K          3421.9   3178.2   2934.2
+ RHO, G/CC       9.0555-3 9.5456-4 1.0122-4
+ H, CAL/G          54.699   54.699   54.699
+ U, CAL/G         -212.73  -199.00  -184.56
+ G, CAL/G        -8279.25 -8263.93 -8170.27
+ S, CAL/(G)(K)     2.4355   2.6174   2.8031
+     
+ M, MOL WT         25.427   24.895   24.370
+ (DLV/DLP)T      -1.02118 -1.02910 -1.03762
+ (DLV/DLT)P        1.4069   1.5873   1.8055
+ CP, CAL/(G)(K)    1.0553   1.3916   1.8533
+ GAMMA (S)         1.1434   1.1305   1.1183
+ SON VEL,M/SEC     1131.1   1095.4   1058.1
+     
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE  0.96845  0.92239  0.87480
+0  WITH EQUILIBRIUM REACTIONS
+
+ CP, CAL/(G)(K)    1.0553   1.3916   1.8533
+ CONDUCITVITY      1.9429   2.7019   3.7340
+ PRANDTL NUMBER    0.5260   0.4751   0.4342
+0  WITH FROZEN REACTIONS
+
+ CP, CAL/(G)(K)    0.4299   0.4267   0.4235
+ CONDUCITVITY      0.6527   0.6172   0.5828
+ PRANDTL NUMBER    0.6378   0.6378   0.6357
+     
+0MOLE FRACTIONS
+
+ CO               0.11606  0.12592  0.13198
+ CO2              0.11535  0.10066  0.08983
+ H                0.00936  0.01745  0.02868
+ HCO RAD          0.00001  0.00000  0.00000
+ HNO              0.00001  0.00000  0.00000
+ HO2              0.00009  0.00005  0.00002
+ H2               0.03653  0.04395  0.05048
+ H2O              0.28905  0.26661  0.24536
+ H2O2             0.00001  0.00000  0.00000
+ N                0.00001  0.00001  0.00001
+ NH               0.00001  0.00000  0.00000
+ NO               0.01387  0.01317  0.01120
+ NO2              0.00002  0.00001  0.00000
+ N2               0.36550  0.35808  0.35140
+ N2O              0.00001  0.00000  0.00000
+ O                0.00500  0.00968  0.01559
+ OH               0.03357  0.04109  0.04504
+ O2               0.01554  0.02331  0.03042
+0ADDITIONAL PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS WERE LESS THAN  0.50000E-05 FOR ALL ASSIGNED CONDITIONS
+
+  CH3NO             CH3ONO            HCO2              CH2NO2            CH3NO2            C                 CH              
+  CH2               FORMALDEHYDE      FORMIC ACID       CH3               HYDROXYMETHYLENE  METHYLOXIDE       CH4             
+  METHANOL          CN                NCN RAD           CNN RAD           C2                C2H RAD           ACETYLENE       
+  KETENE            C2H3 RAD          METHYL CYANIDE    CH3CO RAD         CH2CHO RAD        ETHYLENE          ACETALDEHYDE    
+  ACETIC ACID       (FORMIC ACID)2    ETHYL RAD         ETHYL OXIDE RAD   ETHANE            AZOMETHANE        DIMETHYL ETHER  
+  ETHANOL           CNC RAD           CYANOGEN          CCO RAD           C3                C3H3 RAD          CYCLOPROPENE    
+  PROPYNE           ALLENE            C3H5 RAD          CYCLOPROPANE      PROPYLENE         PROPYLENE OXIDE   I-PROPYL RAD    
+  N-PROPYL RAD      PROPANE           1-PROPANOL        CARBON SUBOXIDE   C4                BUTADIYNE         CYCLOBUTADIENE  
+  BUTAN-1EN-3YN     1,3-BUTADIENE     2-BUTYNE          2-BUTENE TRANS    2-BUTENE CIS      ISOBUTENE         1-BUTENE        
+  (ACETIC ACID)2    T-BUTYL RAD       S-BUTYL RAD       N-BUTYL RAD       N-BUTANE          ISOBUTANE         CARBON SUBNITRID
+  C5                CYCLOPENTADIENE   CYCLOPENTANE      1-PENTENE         T-PENTYL RAD      N-PENTYL RAD      PENTANE         
+  ISOPENTANE        CH3C(CH3)2CH3     HEXATRIYNE        PHENYL RAD        PHENOXY RAD       BENZENE           PHENOL          
+  CYCLOHEXENE       N-HEXYL RAD       TOLUENE           CRESOL            1-HEPTENE         N-HEPTYL RAD      N-HEPTANE       
+  1-OCTENE          N-OCTYL RAD       OCTANE            ISO-OCTANE        N-NONYL RAD       NAPTHLENE         AZULENE         
+  N-DECYL RAD       O-BIPHENYL RAD    BIPHENYL          JET-A(G)          HCN               HNCO              HNO2            
+  HNO3              H2N2              NCO               NH2               NH3               NH2OH             NO3             
+  N2H2              NH2NO2            N2H4              N2O3              N2O4              N2O5              N3              
+  N3H               O3                C(GR)             METHANOL(L)       BENZENE(L)        TOLUENE(L)        OCTANE(L)       
+  JET-A(L)          H2O(S)            H2O(L)          
+0NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+1     
+0OF =   0.700000
+                            EFFECTIVE FUEL          EFFECTIVE OXIDANT            MIXTURE
+ ENTHALPY                       HPP(2)                   HPP(1)                   HSUB0
+ (KG-MOL)(DEG K)/KG        -0.12884392E+03           0.22298778E+03           0.16027957E+02
+0KG-FORM.WT./KG               B0P(I,2)                 B0P(I,1)                  B0(I)
+ CO                         0.24573969E-01          -0.22720663E-01           0.50997091E-02
+ H2O                        0.24573969E-01           0.00000000E+00           0.14455276E-01
+ N2                         0.81913232E-02           0.22720663E-01           0.14173993E-01
+ CO2                       -0.81913232E-02           0.22720663E-01           0.45371418E-02
+   1    4 3415.68  -30.955         -35.167         -25.303         -46.309
+   2    4 3176.73  -33.214         -37.812         -27.353         -49.325
+   3    4 2933.97  -35.530         -40.549         -29.378         -52.476
+1                                    THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+0                                                               PRESSURES
+
+ CASE NO.     123
+                                                                             WT FRACTION    ENERGY   STATE   TEMP
+          CHEMICAL FORMULA                                                   (SEE NOTE)     CAL/MOL          DEG K
+ FUEL    C  1.00000   H  3.00000   N  1.00000   O  2.00000                     1.000000   -15628.584   G    298.15
+ OXIDANT N  2.00000   O  1.00000                                               1.000000    19502.928   G    298.15
+0               O/F=  0.7000    PERCENT FUEL=  58.8235    EQUIVALENCE RATIO= 1.1781    PHI= 1.5451
+0THERMODYNAMIC PROPERTIES
+
+ P, ATM            100.00   10.000   1.0000
+ T, DEG K          3415.7   3176.7   2934.0
+ RHO, G/CC       8.9409-3 9.4166-4 9.9825-5
+ H, CAL/G          31.851   31.851   31.851
+ U, CAL/G         -239.01  -225.32  -210.75
+ G, CAL/G        -8382.53 -8379.91 -8289.86
+ S, CAL/(G)(K)     2.4635   2.6479   2.8363
+     
+ M, MOL WT         25.060   24.547   24.033
+ (DLV/DLP)T      -1.01965 -1.02818 -1.03716
+ (DLV/DLT)P        1.3784   1.5685   1.7946
+ CP, CAL/(G)(K)    1.0269   1.3792   1.8575
+ GAMMA (S)         1.1455   1.1315   1.1188
+ SON VEL,M/SEC     1139.4   1103.4   1065.7
+     
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE  0.96670  0.92139  0.87395
+0  WITH EQUILIBRIUM REACTIONS
+
+ CP, CAL/(G)(K)    1.0269   1.3792   1.8575
+ CONDUCITVITY      1.8879   2.6760   3.7399
+ PRANDTL NUMBER    0.5259   0.4749   0.4341
+0  WITH FROZEN REACTIONS
+
+ CP, CAL/(G)(K)    0.4365   0.4333   0.4301
+ CONDUCITVITY      0.6666   0.6311   0.5962
+ PRANDTL NUMBER    0.6329   0.6327   0.6305
+     
+0MOLE FRACTIONS
+
+ CO               0.13095  0.13899  0.14375
+ CO2              0.11054  0.09756  0.08785
+ H                0.01016  0.01882  0.03069
+ HCO RAD          0.00001  0.00000  0.00000
+ HNO              0.00001  0.00000  0.00000
+ HO2              0.00007  0.00004  0.00002
+ H2               0.04430  0.05153  0.05787
+ H2O              0.29739  0.27443  0.25254
+ H2O2             0.00001  0.00000  0.00000
+ N                0.00001  0.00001  0.00001
+ NH               0.00001  0.00000  0.00000
+ NO               0.01125  0.01123  0.00981
+ NO2              0.00001  0.00001  0.00000
+ N2               0.34954  0.34229  0.33573
+ O                0.00410  0.00842  0.01397
+ OH               0.03080  0.03886  0.04326
+ O2               0.01083  0.01780  0.02448
+0ADDITIONAL PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS WERE LESS THAN  0.50000E-05 FOR ALL ASSIGNED CONDITIONS
+
+  CH3NO             CH3ONO            HCO2              CH2NO2            CH3NO2            C                 CH              
+  CH2               FORMALDEHYDE      FORMIC ACID       CH3               HYDROXYMETHYLENE  METHYLOXIDE       CH4             
+  METHANOL          CN                NCN RAD           CNN RAD           C2                C2H RAD           ACETYLENE       
+  KETENE            C2H3 RAD          METHYL CYANIDE    CH3CO RAD         CH2CHO RAD        ETHYLENE          ACETALDEHYDE    
+  ACETIC ACID       (FORMIC ACID)2    ETHYL RAD         ETHYL OXIDE RAD   ETHANE            AZOMETHANE        DIMETHYL ETHER  
+  ETHANOL           CNC RAD           CYANOGEN          CCO RAD           C3                C3H3 RAD          CYCLOPROPENE    
+  PROPYNE           ALLENE            C3H5 RAD          CYCLOPROPANE      PROPYLENE         PROPYLENE OXIDE   I-PROPYL RAD    
+  N-PROPYL RAD      PROPANE           1-PROPANOL        CARBON SUBOXIDE   C4                BUTADIYNE         CYCLOBUTADIENE  
+  BUTAN-1EN-3YN     1,3-BUTADIENE     2-BUTYNE          2-BUTENE TRANS    2-BUTENE CIS      ISOBUTENE         1-BUTENE        
+  (ACETIC ACID)2    T-BUTYL RAD       S-BUTYL RAD       N-BUTYL RAD       N-BUTANE          ISOBUTANE         CARBON SUBNITRID
+  C5                CYCLOPENTADIENE   CYCLOPENTANE      1-PENTENE         T-PENTYL RAD      N-PENTYL RAD      PENTANE         
+  ISOPENTANE        CH3C(CH3)2CH3     HEXATRIYNE        PHENYL RAD        PHENOXY RAD       BENZENE           PHENOL          
+  CYCLOHEXENE       N-HEXYL RAD       TOLUENE           CRESOL            1-HEPTENE         N-HEPTYL RAD      N-HEPTANE       
+  1-OCTENE          N-OCTYL RAD       OCTANE            ISO-OCTANE        N-NONYL RAD       NAPTHLENE         AZULENE         
+  N-DECYL RAD       O-BIPHENYL RAD    BIPHENYL          JET-A(G)          HCN               HNCO              HNO2            
+  HNO3              H2N2              NCO               NH2               NH3               NH2OH             NO3             
+  N2H2              NH2NO2            N2H4              N2O               N2O3              N2O4              N2O5            
+  N3                N3H               O3                C(GR)             METHANOL(L)       BENZENE(L)        TOLUENE(L)      
+  OCTANE(L)         JET-A(L)          H2O(S)            H2O(L)          
+0NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+1     
+0OF =   0.600000
+                            EFFECTIVE FUEL          EFFECTIVE OXIDANT            MIXTURE
+ ENTHALPY                       HPP(2)                   HPP(1)                   HSUB0
+ (KG-MOL)(DEG K)/KG        -0.12884392E+03           0.22298778E+03           0.30929722E+01
+0KG-FORM.WT./KG               B0P(I,2)                 B0P(I,1)                  B0(I)
+ CO                         0.24573969E-01          -0.22720663E-01           0.68384817E-02
+ H2O                        0.24573969E-01           0.00000000E+00           0.15358731E-01
+ N2                         0.81913232E-02           0.22720663E-01           0.13639826E-01
+ CO2                       -0.81913232E-02           0.22720663E-01           0.34006721E-02
+   1    4 3398.69  -30.835         -35.158         -25.337         -46.404
+   2    4 3169.19  -33.115         -37.794         -27.396         -49.387
+   3    4 2930.20  -35.444         -40.528         -29.426         -52.519
+1                                    THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+0                                                               PRESSURES
+
+ CASE NO.     123
+                                                                             WT FRACTION    ENERGY   STATE   TEMP
+          CHEMICAL FORMULA                                                   (SEE NOTE)     CAL/MOL          DEG K
+ FUEL    C  1.00000   H  3.00000   N  1.00000   O  2.00000                     1.000000   -15628.584   G    298.15
+ OXIDANT N  2.00000   O  1.00000                                               1.000000    19502.928   G    298.15
+0               O/F=  0.6000    PERCENT FUEL=  62.5000    EQUIVALENCE RATIO= 1.2358    PHI= 1.8026
+0THERMODYNAMIC PROPERTIES
+
+ P, ATM            100.00   10.000   1.0000
+ T, DEG K          3398.7   3169.2   2930.2
+ RHO, G/CC       8.8341-3 9.2880-4 9.8389-5
+ H, CAL/G          6.1463   6.1463   6.1463
+ U, CAL/G         -267.99  -254.59  -239.99
+ G, CAL/G        -8470.96 -8492.89 -8412.87
+ S, CAL/(G)(K)     2.4942   2.6818   2.8732
+     
+ M, MOL WT         24.637   24.154   23.657
+ (DLV/DLP)T      -1.01722 -1.02634 -1.03586
+ (DLV/DLT)P        1.3330   1.5320   1.7665
+ CP, CAL/(G)(K)    0.9743   1.3406   1.8351
+ GAMMA (S)         1.1493   1.1334   1.1198
+ SON VEL,M/SEC     1148.1   1112.0   1073.9
+     
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE  0.96278  0.91908  0.87226
+0  WITH EQUILIBRIUM REACTIONS
+
+ CP, CAL/(G)(K)    0.9743   1.3406   1.8351
+ CONDUCITVITY      1.7934   2.6038   3.6975
+ PRANDTL NUMBER    0.5231   0.4732   0.4329
+0  WITH FROZEN REACTIONS
+
+ CP, CAL/(G)(K)    0.4437   0.4407   0.4374
+ CONDUCITVITY      0.6807   0.6458   0.6106
+ PRANDTL NUMBER    0.6275   0.6271   0.6249
+     
+0MOLE FRACTIONS
+
+ CO               0.14780  0.15367  0.15693
+ CO2              0.10445  0.09364  0.08529
+ H                0.01081  0.02007  0.03262
+ HCO RAD          0.00001  0.00000  0.00000
+ HNO              0.00001  0.00000  0.00000
+ HO2              0.00005  0.00003  0.00002
+ H2               0.05443  0.06109  0.06698
+ H2O              0.30496  0.28196  0.25968
+ H2O2             0.00001  0.00000  0.00000
+ N                0.00001  0.00001  0.00000
+ NH               0.00001  0.00000  0.00000
+ NO               0.00861  0.00919  0.00834
+ NO2              0.00001  0.00000  0.00000
+ N2               0.33171  0.32485  0.31850
+ O                0.00313  0.00697  0.01208
+ OH               0.02708  0.03573  0.04073
+ O2               0.00690  0.01277  0.01882
+0ADDITIONAL PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS WERE LESS THAN  0.50000E-05 FOR ALL ASSIGNED CONDITIONS
+
+  CH3NO             CH3ONO            HCO2              CH2NO2            CH3NO2            C                 CH              
+  CH2               FORMALDEHYDE      FORMIC ACID       CH3               HYDROXYMETHYLENE  METHYLOXIDE       CH4             
+  METHANOL          CN                NCN RAD           CNN RAD           C2                C2H RAD           ACETYLENE       
+  KETENE            C2H3 RAD          METHYL CYANIDE    CH3CO RAD         CH2CHO RAD        ETHYLENE          ACETALDEHYDE    
+  ACETIC ACID       (FORMIC ACID)2    ETHYL RAD         ETHYL OXIDE RAD   ETHANE            AZOMETHANE        DIMETHYL ETHER  
+  ETHANOL           CNC RAD           CYANOGEN          CCO RAD           C3                C3H3 RAD          CYCLOPROPENE    
+  PROPYNE           ALLENE            C3H5 RAD          CYCLOPROPANE      PROPYLENE         PROPYLENE OXIDE   I-PROPYL RAD    
+  N-PROPYL RAD      PROPANE           1-PROPANOL        CARBON SUBOXIDE   C4                BUTADIYNE         CYCLOBUTADIENE  
+  BUTAN-1EN-3YN     1,3-BUTADIENE     2-BUTYNE          2-BUTENE TRANS    2-BUTENE CIS      ISOBUTENE         1-BUTENE        
+  (ACETIC ACID)2    T-BUTYL RAD       S-BUTYL RAD       N-BUTYL RAD       N-BUTANE          ISOBUTANE         CARBON SUBNITRID
+  C5                CYCLOPENTADIENE   CYCLOPENTANE      1-PENTENE         T-PENTYL RAD      N-PENTYL RAD      PENTANE         
+  ISOPENTANE        CH3C(CH3)2CH3     HEXATRIYNE        PHENYL RAD        PHENOXY RAD       BENZENE           PHENOL          
+  CYCLOHEXENE       N-HEXYL RAD       TOLUENE           CRESOL            1-HEPTENE         N-HEPTYL RAD      N-HEPTANE       
+  1-OCTENE          N-OCTYL RAD       OCTANE            ISO-OCTANE        N-NONYL RAD       NAPTHLENE         AZULENE         
+  N-DECYL RAD       O-BIPHENYL RAD    BIPHENYL          JET-A(G)          HCN               HNCO              HNO2            
+  HNO3              H2N2              NCO               NH2               NH3               NH2OH             NO3             
+  N2H2              NH2NO2            N2H4              N2O               N2O3              N2O4              N2O5            
+  N3                N3H               O3                C(GR)             METHANOL(L)       BENZENE(L)        TOLUENE(L)      
+  OCTANE(L)         JET-A(L)          H2O(S)            H2O(L)          
+0NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+1     
+0OF =   0.500000
+                            EFFECTIVE FUEL          EFFECTIVE OXIDANT            MIXTURE
+ ENTHALPY                       HPP(2)                   HPP(1)                   HSUB0
+ (KG-MOL)(DEG K)/KG        -0.12884392E+03           0.22298778E+03          -0.11566685E+02
+0KG-FORM.WT./KG               B0P(I,2)                 B0P(I,1)                  B0(I)
+ CO                         0.24573969E-01          -0.22720663E-01           0.88090918E-02
+ H2O                        0.24573969E-01           0.00000000E+00           0.16382646E-01
+ N2                         0.81913232E-02           0.22720663E-01           0.13034437E-01
+ CO2                       -0.81913232E-02           0.22720663E-01           0.21126724E-02
+   1    4 3366.64  -30.715         -35.170         -25.363         -46.550
+   2    4 3152.96  -33.015         -37.791         -27.438         -49.485
+   3    4 2921.30  -35.356         -40.517         -29.476         -52.588
+1                                    THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+0                                                               PRESSURES
+
+ CASE NO.     123
+                                                                             WT FRACTION    ENERGY   STATE   TEMP
+          CHEMICAL FORMULA                                                   (SEE NOTE)     CAL/MOL          DEG K
+ FUEL    C  1.00000   H  3.00000   N  1.00000   O  2.00000                     1.000000   -15628.584   G    298.15
+ OXIDANT N  2.00000   O  1.00000                                               1.000000    19502.928   G    298.15
+0               O/F=  0.5000    PERCENT FUEL=  66.6667    EQUIVALENCE RATIO= 1.2995    PHI= 2.1631
+0THERMODYNAMIC PROPERTIES
+
+ P, ATM            100.00   10.000   1.0000
+ T, DEG K          3366.6   3153.0   2921.3
+ RHO, G/CC       8.7410-3 9.1633-4 9.6930-5
+ H, CAL/G         -22.985  -22.985  -22.985
+ U, CAL/G         -300.04  -287.27  -272.83
+ G, CAL/G        -8534.62 -8597.21 -8536.73
+ S, CAL/(G)(K)     2.5282   2.7194   2.9144
+     
+ M, MOL WT         24.147   23.708   23.235
+ (DLV/DLP)T      -1.01404 -1.02343 -1.03346
+ (DLV/DLT)P        1.2733   1.4747   1.7160
+ CP, CAL/(G)(K)    0.8992   1.2693   1.7757
+ GAMMA (S)         1.1552   1.1366   1.1215
+ SON VEL,M/SEC     1157.2   1121.1   1082.8
+     
+ TRANSPORT PROPERTIES (GASES ONLY)
+   CONDUCTIVITY IN UNITS OF MILLICALORIES/(CM)(K)(SEC)
+
+ VISC,MILLIPOISE  0.95584  0.91493  0.86937
+0  WITH EQUILIBRIUM REACTIONS
+
+ CP, CAL/(G)(K)    0.8992   1.2693   1.7755
+ CONDUCITVITY      1.6654   2.4794   3.5937
+ PRANDTL NUMBER    0.5161   0.4684   0.4295
+0  WITH FROZEN REACTIONS
+
+ CP, CAL/(G)(K)    0.4517   0.4488   0.4456
+ CONDUCITVITY      0.6947   0.6614   0.6262
+ PRANDTL NUMBER    0.6215   0.6209   0.6187
+     
+0MOLE FRACTIONS
+
+ CO               0.16668  0.17015  0.17172
+ CO2              0.09703  0.08878  0.08205
+ H                0.01116  0.02102  0.03429
+ HCO RAD          0.00001  0.00000  0.00000
+ HNO              0.00001  0.00000  0.00000
+ HO2              0.00003  0.00002  0.00001
+ H2               0.06776  0.07333  0.07838
+ H2O              0.31097  0.28874  0.26649
+ H2O2             0.00001  0.00000  0.00000
+ N                0.00001  0.00001  0.00000
+ NH               0.00001  0.00000  0.00000
+ NH3              0.00001  0.00000  0.00000
+ NO               0.00609  0.00711  0.00679
+ N2               0.31168  0.30545  0.29946
+ O                0.00216  0.00538  0.00994
+ OH               0.02246  0.03157  0.03727
+ O2               0.00390  0.00842  0.01358
+0ADDITIONAL PRODUCTS WHICH WERE CONSIDERED BUT WHOSE MOLE FRACTIONS WERE LESS THAN  0.50000E-05 FOR ALL ASSIGNED CONDITIONS
+
+  CH3NO             CH3ONO            HCO2              CH2NO2            CH3NO2            C                 CH              
+  CH2               FORMALDEHYDE      FORMIC ACID       CH3               HYDROXYMETHYLENE  METHYLOXIDE       CH4             
+  METHANOL          CN                NCN RAD           CNN RAD           C2                C2H RAD           ACETYLENE       
+  KETENE            C2H3 RAD          METHYL CYANIDE    CH3CO RAD         CH2CHO RAD        ETHYLENE          ACETALDEHYDE    
+  ACETIC ACID       (FORMIC ACID)2    ETHYL RAD         ETHYL OXIDE RAD   ETHANE            AZOMETHANE        DIMETHYL ETHER  
+  ETHANOL           CNC RAD           CYANOGEN          CCO RAD           C3                C3H3 RAD          CYCLOPROPENE    
+  PROPYNE           ALLENE            C3H5 RAD          CYCLOPROPANE      PROPYLENE         PROPYLENE OXIDE   I-PROPYL RAD    
+  N-PROPYL RAD      PROPANE           1-PROPANOL        CARBON SUBOXIDE   C4                BUTADIYNE         CYCLOBUTADIENE  
+  BUTAN-1EN-3YN     1,3-BUTADIENE     2-BUTYNE          2-BUTENE TRANS    2-BUTENE CIS      ISOBUTENE         1-BUTENE        
+  (ACETIC ACID)2    T-BUTYL RAD       S-BUTYL RAD       N-BUTYL RAD       N-BUTANE          ISOBUTANE         CARBON SUBNITRID
+  C5                CYCLOPENTADIENE   CYCLOPENTANE      1-PENTENE         T-PENTYL RAD      N-PENTYL RAD      PENTANE         
+  ISOPENTANE        CH3C(CH3)2CH3     HEXATRIYNE        PHENYL RAD        PHENOXY RAD       BENZENE           PHENOL          
+  CYCLOHEXENE       N-HEXYL RAD       TOLUENE           CRESOL            1-HEPTENE         N-HEPTYL RAD      N-HEPTANE       
+  1-OCTENE          N-OCTYL RAD       OCTANE            ISO-OCTANE        N-NONYL RAD       NAPTHLENE         AZULENE         
+  N-DECYL RAD       O-BIPHENYL RAD    BIPHENYL          JET-A(G)          HCN               HNCO              HNO2            
+  HNO3              H2N2              NCO               NH2               NH2OH             NO2               NO3             
+  N2H2              NH2NO2            N2H4              N2O               N2O3              N2O4              N2O5            
+  N3                N3H               O3                C(GR)             METHANOL(L)       BENZENE(L)        TOLUENE(L)      
+  OCTANE(L)         JET-A(L)          H2O(S)            H2O(L)          
+0NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+1     
